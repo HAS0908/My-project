@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+
+#wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 32px;
+}
+
+header {
+    background-color: azure;
+    height: 111px;
+    padding: 4px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: navy;
+    line-height: 40px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: azure;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: navy;
+    text-decoration: none;
+    padding: 15 px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: slategray;
+}
+
+
+ul.my_project {
+    margin-top: 15 px;
+}
